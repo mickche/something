@@ -6,3 +6,8 @@ def create_data(url:str) -> list[dict]:
     data = resp.json()
     return data
 
+# print(create_data("https://jsonplaceholder.typicode.com/posts"))
+
+
+# in dict: userId; id; title; body
+
