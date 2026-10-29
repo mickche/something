@@ -2,7 +2,7 @@ from create_data import create_data
 import random
 DATA = create_data("https://jsonplaceholder.typicode.com/posts")
 
-def search_d_from_data(index:int,DATA:list[dict]=DATA) -> dict:
+def search_d_from_data(index:int, DATA:list[dict] = DATA) -> dict:
     return DATA[index - 1]
 
 def titles_from_data(search_d_from_data):
