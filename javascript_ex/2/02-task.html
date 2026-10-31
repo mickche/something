@@ -20,14 +20,10 @@
         Hello world
     </div>
     <script>
-        // створіть змінну з ім'ям element та присвоюємо їй перший HTML елемент div, який буде знайдений в документі
         let element = document.querySelector("div");
-        
-        // "вішаємо" обробник на подію click (клік лівою клавішею миші).
-        // При кліку по  HTML-елементу, який знаходиться у змінній element буде запускатись функція-обробник
-        
+    
         element.addEventListener("click", function() {
-            element.innerText = "Привіт світ!"; // для HTML-елементу, який знаходиться у змінній element змінюємо значення тексту, який знаходиться в елементі
+            element.innerText = "Привіт світ!";
         });
     </script>
 </body>
